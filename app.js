@@ -49,7 +49,7 @@ async function fetchApi(url){
 
 async function addPhotos(data){
     data.photos.forEach(element => {
-        console.log(element);
+    
         const galleryImg = document.createElement("div");
         galleryImg.classList.add("gallery-img");
         galleryImg.innerHTML = `
